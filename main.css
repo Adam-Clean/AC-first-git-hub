@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: ;
+    background-color: rgb(235, 128, 57);
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+}
+.nav-item {
+    margin: 0 10px;
+    display: inline-block;
+}

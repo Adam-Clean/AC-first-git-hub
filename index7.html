@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>pseudo-class</title>
+        <style>
+            .sticky {
+                height: 100px;
+                width: vw;
+                background-color: rgb(131, 226, 221);
+                position: sticky;
+                top: 0;
+                box-sizing: border-box;
+                padding: 35px 250px;
+            }
+            .fa {
+                height: 100px;
+                width: 100px; 
+                background-color: rgb(141, 176, 216); 
+                position: relative;
+                margin-top: ;
+                margin-left: ;
+                
+            }
+            .ch {
+                height: 50px; 
+                width: 50px; 
+                background-color: blue; 
+                display: none;
+                position: relative;
+                left: 100px;
+            }
+            .fb {
+                height: 50px; 
+                width: 50px; 
+                background-color: rgb(115, 230, 87); 
+                display: none ;
+                position: relative;
+                left: 50px;
+                
+            }
+            .fb1 {
+                height: 10px;
+                width: 50px;
+                background-color:rgb(236, 121, 178);
+                position: relative;
+                left: 50px;
+                display: none;
+            }
+            .fb2 {
+                height: 10px;
+                width: 50px;
+                background-color: rgb(207, 240, 131);
+                position: relative;
+                left: 50px;
+                display: none;
+            }
+            /* #f1 {
+                height: 80px;
+                width: 80px;
+            } */
+            .fa:hover .ch {display: block; background-color: rgb(52, 102, 109);   
+            }
+            .ch:hover .fb {display: block;}
+            .fb:hover .fb1 {display: block;}
+            .fb:hover .fb2 {display: block;}
+            .fb1:hover {background-color: red;}
+            .fb2:hover {background-color: red;}
+            
+        </style>
+    </head>
+    <body>
+        <div class="sticky">HEADER</div>
+        <div class="fa">1
+            <div class="ch">2
+                <div class="fb">
+                    <div class="fb1" title="yeah"></div>
+                    <div class="fb1" title="yeah"></div>
+                    <div class="fb1" title="yeah"></div>
+                    <div class="fb1" title="yeah"></div>
+                    <div class="fb1" title="yeah"></div>
+                </div>
+            </div> 
+            <div class="ch">
+                <div class="fb">
+                    <div class="fb2" title="yeah"></div>
+                    <div class="fb2" title="yeah"></div>
+                    <div class="fb2" title="yeah"></div>
+                    <div class="fb2" title="yeah"></div>
+                    <div class="fb2" title="yeah"></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li style="height: 1000px;"></li>
+            </ul>
+        </div>
+
+    </body>
+
+</html>
